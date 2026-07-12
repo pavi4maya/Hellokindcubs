@@ -3,57 +3,235 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Hello Kind Cubs</title>
-  <style>
-    body{
-      font-family: Arial, sans-serif;
-      background:#f8fbff;
-      text-align:center;
-      padding:80px 20px;
-    }
-    h1{
-      color:#4CAF50;
-      font-size:56px;
-      margin-bottom:10px;
-    }
-    h2{
-      color:#ff8a5b;
-      font-weight:normal;
-    }
-    p{
-      max-width:700px;
-      margin:auto;
-      font-size:20px;
-      line-height:1.7;
-      color:#555;
-    }
-    .button{
-      display:inline-block;
-      margin-top:40px;
-      padding:15px 35px;
-      background:#56CCF2;
-      color:white;
-      text-decoration:none;
-      border-radius:40px;
-      font-size:20px;
-    }
-  </style>
+
+  <meta
+    name="description"
+    content="Hello Kind Cubs creates social stories, worksheets, and educational resources for children ages 3–10."
+  >
+
+  <title>Hello Kind Cubs | Growing Kind Hearts. Confident Minds.</title>
+
+  <link rel="stylesheet" href="styles.css">
 </head>
 
 <body>
 
-<h1>🌈 Hello Kind Cubs 🐻</h1>
+  <header class="site-header">
+    <div class="container navigation">
 
-<h2>Growing Kind Hearts. Confident Minds.</h2>
+      <a class="brand" href="/">
+        <span class="brand-icon">🐻</span>
+        <span>Hello Kind Cubs</span>
+      </a>
 
-<p>
-Helping children ages 3–10 build kindness,
-confidence, and everyday life skills through
-engaging social stories, worksheets,
-and educational resources.
-</p>
+      <nav aria-label="Main navigation">
+        <a href="#stories">Social Stories</a>
+        <a href="#worksheets">Worksheets</a>
+        <a href="#ages">Browse by Age</a>
+        <a href="#about">About</a>
+      </nav>
 
-<a class="button" href="#">Coming Soon</a>
+    </div>
+  </header>
+
+  <main>
+
+    <section class="hero">
+      <div class="container hero-content">
+
+        <div class="hero-text">
+          <p class="eyebrow">Learning resources for children ages 3–10</p>
+
+          <h1>
+            Growing Kind Hearts.<br>
+            <span>Confident Minds.</span>
+          </h1>
+
+          <p class="hero-description">
+            Helping children understand everyday social situations through
+            simple social stories, meaningful worksheets, and engaging
+            educational resources.
+          </p>
+
+          <div class="hero-buttons">
+            <a class="button primary-button" href="#stories">
+              Explore Social Stories
+            </a>
+
+            <a class="button secondary-button" href="#worksheets">
+              Browse Worksheets
+            </a>
+          </div>
+        </div>
+
+        <div class="hero-picture" aria-label="Friendly learning illustration">
+          <div class="rainbow">🌈</div>
+          <div class="bear">🐻</div>
+          <div class="book">📖</div>
+        </div>
+
+      </div>
+    </section>
+
+    <section class="section" id="ages">
+      <div class="container">
+
+        <div class="section-heading">
+          <p class="eyebrow">Find the right learning level</p>
+          <h2>Browse by Age</h2>
+          <p>Age-appropriate resources that grow with your child.</p>
+        </div>
+
+        <div class="card-grid age-grid">
+
+          <a class="resource-card" href="#">
+            <span class="card-icon">🌱</span>
+            <h3>Ages 3–4</h3>
+            <p>Simple stories, pictures, matching, and early social skills.</p>
+          </a>
+
+          <a class="resource-card" href="#">
+            <span class="card-icon">🌻</span>
+            <h3>Ages 5–6</h3>
+            <p>School routines, feelings, friendships, and simple choices.</p>
+          </a>
+
+          <a class="resource-card" href="#">
+            <span class="card-icon">🌳</span>
+            <h3>Ages 7–8</h3>
+            <p>Problem-solving, communication, and emotional understanding.</p>
+          </a>
+
+          <a class="resource-card" href="#">
+            <span class="card-icon">⭐</span>
+            <h3>Ages 9–10</h3>
+            <p>Confidence, relationships, responsibility, and life skills.</p>
+          </a>
+
+        </div>
+      </div>
+    </section>
+
+    <section class="section soft-section" id="stories">
+      <div class="container">
+
+        <div class="section-heading">
+          <p class="eyebrow">Everyday situations made easier</p>
+          <h2>Explore Social Story Topics</h2>
+        </div>
+
+        <div class="topic-grid">
+
+          <a class="topic-card" href="#">
+            <span>🏫</span>
+            <strong>School Life</strong>
+          </a>
+
+          <a class="topic-card" href="#">
+            <span>😊</span>
+            <strong>Feelings</strong>
+          </a>
+
+          <a class="topic-card" href="#">
+            <span>🤝</span>
+            <strong>Friendship</strong>
+          </a>
+
+          <a class="topic-card" href="#">
+            <span>🏠</span>
+            <strong>Home & Family</strong>
+          </a>
+
+          <a class="topic-card" href="#">
+            <span>❤️</span>
+            <strong>Kindness</strong>
+          </a>
+
+          <a class="topic-card" href="#">
+            <span>🛡️</span>
+            <strong>Safety</strong>
+          </a>
+
+          <a class="topic-card" href="#">
+            <span>🧼</span>
+            <strong>Healthy Habits</strong>
+          </a>
+
+          <a class="topic-card" href="#">
+            <span>🌍</span>
+            <strong>Community</strong>
+          </a>
+
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="worksheets">
+      <div class="container two-column">
+
+        <div class="feature-box story-box">
+          <p class="eyebrow">Social stories</p>
+          <h2>Simple stories children can understand</h2>
+
+          <p>
+            Clear language and familiar situations help children understand
+            what may happen, how they may feel, and what they can do.
+          </p>
+
+          <a class="text-link" href="#">
+            View social stories →
+          </a>
+        </div>
+
+        <div class="feature-box worksheet-box">
+          <p class="eyebrow">Worksheets and activities</p>
+          <h2>Turn each story into meaningful practice</h2>
+
+          <p>
+            Activities support discussion, sequencing, feelings, decision-making,
+            drawing, writing, and role-play.
+          </p>
+
+          <a class="text-link" href="#">
+            View worksheets →
+          </a>
+        </div>
+
+      </div>
+    </section>
+
+    <section class="section trust-section" id="about">
+      <div class="container trust-content">
+
+        <div>
+          <p class="eyebrow">Why Hello Kind Cubs?</p>
+          <h2>Created with children, families, and educators in mind</h2>
+        </div>
+
+        <div class="trust-list">
+          <p>✓ Simple, child-friendly language</p>
+          <p>✓ Practical everyday situations</p>
+          <p>✓ Resources organized by age and topic</p>
+          <p>✓ Designed to build kindness and confidence</p>
+        </div>
+
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-content">
+
+      <div>
+        <strong>Hello Kind Cubs</strong>
+        <p>Growing Kind Hearts. Confident Minds.</p>
+      </div>
+
+      <p>© 2026 Hello Kind Cubs. All rights reserved.</p>
+
+    </div>
+  </footer>
 
 </body>
 </html>
