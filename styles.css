@@ -500,3 +500,52 @@ nav a:hover {
   object-fit: contain;
   border-radius: 28px;
 }
+/* Emergency logo and header correction */
+
+.site-header {
+  width: 100%;
+  background: #ffffff;
+}
+
+.navigation {
+  min-height: 76px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 30px;
+}
+
+.brand {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  flex-shrink: 0;
+}
+
+.site-header .brand-logo {
+  width: 55px !important;
+  height: 55px !important;
+  max-width: 55px !important;
+  max-height: 55px !important;
+  object-fit: cover !important;
+  border-radius: 50%;
+  display: block;
+}
+
+.brand span {
+  display: inline-block;
+  white-space: nowrap;
+  font-size: 1.4rem;
+}
+
+.site-header nav {
+  display: flex;
+  align-items: center;
+  gap: 28px;
+}
+
+.hero-logo {
+  width: 90% !important;
+  max-width: 430px !important;
+  height: auto !important;
+}
